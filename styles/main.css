@@ -20,6 +20,18 @@ nav a:hover {
   text-decoration: underline;
 }
 
+.nav-title, .cardInfo{
+  color:white;
+}
+
+#searchBox, .cardInfo {
+  margin-top: 1rem;
+}
+
+#navbarToggleExternalContent, .navbar, .navbar-default {
+  background-color: #00695c;
+}
+
 /**************** HERO *****************/
 
 header img {
@@ -60,10 +72,3 @@ h3 {
   color: #2d2d2d;
 }
 
-.nav-title, .cardInfo{
-  color:white;
-}
-
-#searchBox, .cardInfo {
-  margin-top: 1rem;
-}
