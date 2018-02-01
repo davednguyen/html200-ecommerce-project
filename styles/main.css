@@ -60,6 +60,10 @@ h3 {
   color: #2d2d2d;
 }
 
-.nav-title{
+.nav-title, .cardInfo{
   color:white;
+}
+
+#searchBox, .cardInfo {
+  margin-top: 1rem;
 }
