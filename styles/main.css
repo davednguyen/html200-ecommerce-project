@@ -86,7 +86,7 @@ h3 {
 .item-container div {
   padding: 0rem;
   width: 14rem;
-  height: 22rem;
+  height: 17rem;
   margin: 1rem;
   overflow: hidden; 
 }
@@ -102,8 +102,8 @@ h3 {
 .item-container div:hover {
   padding: 0rem;
   width: 14rem;
-  height: 44rem;
+  height: 36rem;
   margin: 1rem;
   overflow: visible;
-}
+ }
 
