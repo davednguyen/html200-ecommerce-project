@@ -91,3 +91,12 @@ h3 {
   height: 44rem;
   margin: 1rem;
 }
+
+.item-container div img {
+  max-width: 20rem;
+}
+
+.item-display:hover{  
+  /* //box-shadow: 15.5rem 45.5rem aquamarine; */
+  transform: scale(1.1,1.1);
+}
