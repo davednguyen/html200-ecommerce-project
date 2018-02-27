@@ -106,3 +106,9 @@ h3 {
   margin: 1rem;
   overflow: visible;
  }
+
+
+ /* webform style */
+ #webForm {
+   display:none;
+ }
