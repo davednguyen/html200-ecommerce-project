@@ -72,21 +72,3 @@ function modifyInfo() {
     var modifySection = document.getElementById("modify");
     modifySection.style.display = "none";
 }
-
-function fillOutForm() {
-    event.preventDefault();
-    var webform = document.getElementById("webForm");
-    webform.style.display = "block";
-
-    var products = document.getElementById("productList");
-    products.style.display = "none";
-}
-
-function backToProductList() {
-    event.preventDefault();
-    var webform = document.getElementById("webForm");
-    webform.style.display = "none";
-
-    var products = document.getElementById("productList");
-    products.style.display = "block";
-}

@@ -1,114 +1,142 @@
 body {
-  font-size: 100%;
-  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 p {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-weight: lighter;
-  color: #2d2d2d;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    color: #2d2d2d;
 }
 
+
 /* TODO: size images manually so this is not necessary */
+
 img {
-  max-height: 20rem;
+    max-height: 20rem;
 }
+
 
 /***************** NAV *****************/
 
 nav a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
-.nav-title, .cardInfo{
-  color:white;
+.nav-title,
+.cardInfo {
+    color: white;
 }
 
-#searchBox, .cardInfo {
-  margin-top: 1rem;
+#searchBox,
+.cardInfo {
+    margin-top: 1rem;
 }
 
-#navbarToggleExternalContent, .navbar, .navbar-default {
-  background-color: #00695c;
+#navbarToggleExternalContent,
+.navbar,
+.navbar-default {
+    background-color: #00695c;
 }
 
 .menu-list {
-  color: white;
+    color: white;
+    margin: 4rem;
 }
+
+
 /**************** HERO *****************/
 
 header img {
-  max-height: 6rem;
+    max-height: 6rem;
 }
 
 h1 .logo-w {
-  font-size: 3.5rem;
+    font-size: 3.5rem;
 }
+
 
 /**************** ASIDE ****************/
 
 input[type="submit"] {
-  padding: .25rem;
-  background-color: #3D7FCF;
-  border: 1px solid #3D7FCF;
-  border-radius: 5px;
-  font-size: .75rem;
-  color: white;
+    padding: .25rem;
+    background-color: #3D7FCF;
+    border: 1px solid #3D7FCF;
+    border-radius: 5px;
+    font-size: .75rem;
+    color: white;
 }
+
 
 /*********** PRODUCTS SECTION ***********/
 
 section {
-  padding: 0 .75rem;
+    padding: 0 .75rem;
 }
 
 h2 {
-  padding-top: 1.5rem;
-  font-size: 2rem;
-  text-align: center;
-  color: #2d2d2d;
+    padding-top: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #2d2d2d;
 }
 
 h3 {
-  font-size: 1.2rem;
-  text-align: center;
-  color: #2d2d2d;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #2d2d2d;
 }
 
-.item-container{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-decoration: none;
+.item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+#top-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .item-container div {
-  padding: 0rem;
-  width: 14rem;
-  height: 17rem;
-  margin: 1rem;
-  overflow: hidden; 
+    padding: 0rem;
+    width: 14rem;
+    height: 17rem;
+    margin: 1rem;
+    overflow: hidden;
 }
 
 .item-container div img {
-  max-width: 20rem;
+    max-width: 20rem;
 }
 
-.item-display:hover{  
-  transform: scale(1.1,1.1);  
+.item-display:hover {
+    transform: scale(1.1, 1.1);
 }
 
 .item-container div:hover {
-  padding: 0rem;
-  width: 14rem;
-  height: 36rem;
-  margin: 1rem;
-  overflow: visible;
- }
+    padding: 0rem;
+    width: 14rem;
+    height: 36rem;
+    margin: 1rem;
+    overflow: visible;
+}
 
 
- /* webform style */
- #webForm {
-   display:none;
- }
+/* webform style */
+
+#webForm {
+    display: none;
+}
+
+#clearButton {
+    padding: .25rem;
+    background-color: #3D7FCF;
+    border: 1px solid #3D7FCF;
+    border-radius: 5px;
+    font-size: .75rem;
+    color: white;
+}

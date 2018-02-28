@@ -16,28 +16,21 @@
 <body>
     <div class="container">
         <header>
-            <img src="images/logo-scarfcat.png" srcset="#" alt="dapper cartoon cat wearing a scarf">
             <div class="pos-f-t text-right" id="nav-part">
                 <div class="collapse" id="navbarToggleExternalContent">
                     <div class="bg-dark p-4">
                         <nav>
-                            <ul>
+                            <ul id="top-menu">
                                 <li><a class="menu-list" href="#">Hats</a></li>
                                 <li><a class="menu-list" href="#">Gloves</a></li>
                                 <li><a class="menu-list" href="#">Scarves</a></li>
-                                <li>
-                                <form>
-                                        <label class="menu-list">Sign up for our mailing list:
-                                        <input type="email" name="email">
-                                        </label>
-                                        <input type="submit" value="Submit" onclick="fillOutForm()">
-                                </form>
-                                </li>
+                                <li><a class="menu-list" href="#" onclick="fillOutForm()">Join Our email list</a></li>
                             </ul>
                         </nav>
                     </div>
                 </div>
                 <nav class="navbar navbar-dark bg-dark navbar-right">
+                    <img src="images/logo-scarfcat.png" alt="dapper cartoon cat wearing a scarf">
                     <h1 class="nav-title">
                         <span class="logo-w">W</span>inter
                         <span class="logo-w">W</span>ear
@@ -162,7 +155,8 @@
                     <input class="formInput" id="email" type="text" name="email" required>
                 </div>
                 <input type="submit">
-                <input type="reset">
+                <input class="submit" id="clearButton" type="reset">
+                <input type="submit" onclick="backToProductList()" value="Cancel">
             </form>
             <section class="confirmSection">
                 <h4 id="confirmNote"></h4>
