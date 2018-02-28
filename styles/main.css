@@ -145,6 +145,14 @@ h3 {
 /* ******for smaller screen size ***** */
 
 @media (max-width:640px) {
+    body {
+        margin: none;
+        padding: none;
+    }
+    .container {
+        margin: none;
+        padding: none;
+    }
     #companyLogo {
         display: none;
     }
@@ -155,5 +163,9 @@ h3 {
     #cart,
     {
         display: none;
+    }
+    .products {
+        margin: none;
+        padding: none;
     }
 }
