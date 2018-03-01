@@ -230,6 +230,50 @@ h3 {
 }
 
 
+/* ******high resolution Iphone 7 ***** */
+
+@media screen and (max-width:1334px) {
+    body {
+        margin: none;
+        padding: none;
+    }
+    .container {
+        margin: none;
+        padding: none;
+    }
+    #companyLogo {
+        display: none;
+    }
+    .nav-title {
+        font-size: 1.0rem;
+    }
+    #searchBar,
+    #cart,
+    {
+        display: none;
+    }
+    .products {
+        margin: none;
+        padding: none;
+    }
+    .menu-list {
+        display: flex;
+        margin: 1rem;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    h1 {
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #footerButton {
+        display: block;
+    }
+}
+
+
 /* ******for smaller screen size like Iphone 7 ***** */
 
 @media screen and (max-width:750px) {
