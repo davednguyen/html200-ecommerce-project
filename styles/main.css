@@ -28,7 +28,7 @@ nav a:hover {
     color: white;
 }
 
-#searchBox,
+#searchBox,#searchBoxFooter,
 .cardInfo {
     margin-top: 1rem;
 }
@@ -159,8 +159,8 @@ h3 {
     .nav-title {
         font-size: 1.0rem;
     }
-    #searchBar,
-    #cart,
+    #searchBarButton,
+    #cartButton,
     {
         display: none;
     }
@@ -203,8 +203,8 @@ h3 {
     .nav-title {
         font-size: 1.0rem;
     }
-    #searchBar,
-    #cart,
+    #searchBarButton,
+    #cartButton,
     {
         display: none;
     }
@@ -247,8 +247,8 @@ h3 {
     .nav-title {
         font-size: 1.0rem;
     }
-    #searchBar,
-    #cart,
+    #searchBarButton,
+    #cartButton,
     {
         display: none;
     }
@@ -291,8 +291,8 @@ h3 {
     .nav-title {
         font-size: 1.0rem;
     }
-    #searchBar,
-    #cart,
+    #searchBarButton,
+    #cartButton,
     {
         display: none;
     }
