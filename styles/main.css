@@ -144,7 +144,7 @@ h3 {
 
 /* ******for smaller screen size ***** */
 
-@media (max-width:640px) {
+@media screen and (max-width:640px) {
     body {
         margin: none;
         padding: none;
@@ -168,70 +168,63 @@ h3 {
         margin: none;
         padding: none;
     }
-
-    .menu-list{
-        display: flex;              
-        margin:1rem;
-    }
-    .navbar-toggler{
-        display: none;
-    }
-
-    h1{
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    }
-
-    #footerButton{
-        display: block;
-    }
-}
-
-/* ****** for small screen size like Iphone 6*************** */
-
-@media (max-width:375) {
-    body {
-        margin: none;
-        padding: none;
-    }
-    .container {
-        margin: none;
-        padding: none;
-    }
-    #companyLogo {
-        display: none;
-    }
-    .nav-title {
-        font-size: 1.0rem;
-    }
-    #searchBar,
-    #cart,
-    {
-        display: none;
-    }
-    .products {
-        margin: none;
-        padding: none;
-    }
-
     .menu-list {
-        display: flex;     
-        margin:1rem;
+        display: flex;
+        margin: 1rem;
     }
-
-    .navbar-toggler{
+    .navbar-toggler {
         display: none;
     }
-
-    h1{
+    h1 {
         align-content: center;
         margin-left: auto;
         margin-right: auto;
     }
+    #footerButton {
+        display: block;
+    }
+}
 
 
-    #footerButton{
+/* ****** for small screen size like Iphone 6*************** */
+
+@media screen and (max-width:375) {
+    body {
+        margin: none;
+        padding: none;
+    }
+    .container {
+        margin: none;
+        padding: none;
+    }
+    #companyLogo {
+        display: none;
+    }
+    .nav-title {
+        font-size: 1.0rem;
+    }
+    #searchBar,
+    #cart,
+    {
+        display: none;
+    }
+    .products {
+        margin: none;
+        padding: none;
+    }
+    .menu-list {
+        display: flex;
+        margin: 1rem;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    h1 {
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #footerButton {
         display: block;
     }
 }
@@ -239,7 +232,7 @@ h3 {
 
 /* ******for smaller screen size like Iphone 7 ***** */
 
-@media (max-width:750px) {
+@media screen and (max-width:750px) {
     body {
         margin: none;
         padding: none;
@@ -263,23 +256,19 @@ h3 {
         margin: none;
         padding: none;
     }
-
-    .menu-list{
-        display: flex;              
-        margin:1rem;
+    .menu-list {
+        display: flex;
+        margin: 1rem;
     }
-    .navbar-toggler{
+    .navbar-toggler {
         display: none;
     }
-
-    h1{
+    h1 {
         align-content: center;
         margin-left: auto;
         margin-right: auto;
     }
-
-
-    #footerButton{
+    #footerButton {
         display: block;
     }
 }
