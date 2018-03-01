@@ -168,4 +168,42 @@ h3 {
         margin: none;
         padding: none;
     }
+
+    .menu-list{
+        display: flex;              
+        margin:1rem;
+    }
+}
+
+/* ****** for small screen size like Iphone 6*************** */
+
+@media (max-width:375) {
+    body {
+        margin: none;
+        padding: none;
+    }
+    .container {
+        margin: none;
+        padding: none;
+    }
+    #companyLogo {
+        display: none;
+    }
+    .nav-title {
+        font-size: 1.0rem;
+    }
+    #searchBar,
+    #cart,
+    {
+        display: none;
+    }
+    .products {
+        margin: none;
+        padding: none;
+    }
+
+    .menu-list {
+        display: flex;     
+        margin:1rem;
+    }
 }
