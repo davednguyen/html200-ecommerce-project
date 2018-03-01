@@ -173,6 +173,19 @@ h3 {
         display: flex;              
         margin:1rem;
     }
+    .navbar-toggler{
+        display: none;
+    }
+
+    h1{
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    #footerButton{
+        display: block;
+    }
 }
 
 /* ****** for small screen size like Iphone 6*************** */
@@ -205,5 +218,68 @@ h3 {
     .menu-list {
         display: flex;     
         margin:1rem;
+    }
+
+    .navbar-toggler{
+        display: none;
+    }
+
+    h1{
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #footerButton{
+        display: block;
+    }
+}
+
+
+/* ******for smaller screen size like Iphone 7 ***** */
+
+@media (max-width:750px) {
+    body {
+        margin: none;
+        padding: none;
+    }
+    .container {
+        margin: none;
+        padding: none;
+    }
+    #companyLogo {
+        display: none;
+    }
+    .nav-title {
+        font-size: 1.0rem;
+    }
+    #searchBar,
+    #cart,
+    {
+        display: none;
+    }
+    .products {
+        margin: none;
+        padding: none;
+    }
+
+    .menu-list{
+        display: flex;              
+        margin:1rem;
+    }
+    .navbar-toggler{
+        display: none;
+    }
+
+    h1{
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #footerButton{
+        display: block;
     }
 }
