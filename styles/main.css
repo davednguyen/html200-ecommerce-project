@@ -147,12 +147,12 @@ h3 {
 
 @media screen and (max-width:640px) {
     body {
-        margin: none;
-        padding: none;
+        margin: 0;
+        padding: 0;
     }
     .container {
-        margin: none;
-        padding: none;
+        margin: 0;
+        padding: 0;
     }
     #companyLogo {
         display: none;
@@ -166,8 +166,8 @@ h3 {
         display: none;
     }
     .products {
-        margin: none;
-        padding: none;
+        margin: 0;
+        padding: 0;
     }
     .menu-list {
         display: flex;
@@ -191,12 +191,12 @@ h3 {
 
 @media screen and (max-width:375) {
     body {
-        margin: none;
-        padding: none;
+        margin: 0;
+        padding: 0;
     }
     .container {
-        margin: none;
-        padding: none;
+        margin: 0;
+        padding: 0;
     }
     #companyLogo {
         display: none;
@@ -210,8 +210,8 @@ h3 {
         display: none;
     }
     .products {
-        margin: none;
-        padding: none;
+        margin: 0;
+        padding: 0;
     }
     .menu-list {
         display: flex;
@@ -235,12 +235,12 @@ h3 {
 
 @media only screen and (min-device-width:375px) and (max-device-width:667px) {
     body {
-        margin: none;
-        padding: none;
+        margin: 0;
+        padding: 0;
     }
     .container {
-        margin: none;
-        padding: none;
+        margin: 0;
+        padding: 0;
     }
     #companyLogo {
         display: none;
@@ -254,8 +254,8 @@ h3 {
         display: none;
     }
     .products {
-        margin: none;
-        padding: none;
+        margin: 0;
+        padding: 0;
     }
     .menu-list {
         display: flex;
@@ -279,12 +279,12 @@ h3 {
 
 @media screen and (max-width:750px) {
     body {
-        margin: none;
-        padding: none;
+        margin: 0;
+        padding: 0;
     }
     .container {
-        margin: none;
-        padding: none;
+        margin: 0;
+        padding: 0;
     }
     #companyLogo {
         display: none;
@@ -298,8 +298,8 @@ h3 {
         display: none;
     }
     .products {
-        margin: none;
-        padding: none;
+        margin: 0;
+        padding: 0;
     }
     .menu-list {
         display: flex;
