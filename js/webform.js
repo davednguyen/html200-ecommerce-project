@@ -91,7 +91,24 @@ function backToProductList() {
     products.style.display = "block";
 }
 
+// keep track now many items 
+var cart = [];
 //add item to the list
-function addRemoveItem() {
-    console.log("you clicked")
+function addRemoveItem(name) {
+    console.log("you clicked " + name);
+    if(cart.indexOf(name) == -1){
+        cart.push(name);
+        var numberItem = cart.length;
+        console.log(numberItem);        
+        var cartUpdate =  document.getElementById("updateCart");   
+        cartUpdate.innerHTML = numberItem;            
+        console.log ("new item added to the cart");
+    }else{
+        cart.pop(name);
+        var numberItem = cart.length;
+        console.log(numberItem);
+        var cartUpdate =  document.getElementById("updateCart");   
+        cartUpdate.innerHTML = numberItem; 
+        console.log ("item removed from the cart");
+    }     
 };
