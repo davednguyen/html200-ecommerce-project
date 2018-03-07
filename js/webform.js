@@ -90,3 +90,8 @@ function backToProductList() {
     var products = document.getElementById("productList");
     products.style.display = "block";
 }
+
+//add item to the list
+function addRemoveItem() {
+    console.log("you clicked")
+};

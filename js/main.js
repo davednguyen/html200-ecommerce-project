@@ -51,7 +51,7 @@ function removeInfo() {
     customerEmail.innerHTML = "";
     var modifySection = document.getElementById("modify");
     modifySection.style.display = "none";
-}
+};
 
 //function to modify the info already in email list
 function modifyInfo() {
@@ -71,4 +71,4 @@ function modifyInfo() {
     customerEmail.innerHTML = "";
     var modifySection = document.getElementById("modify");
     modifySection.style.display = "none";
-}
+};
