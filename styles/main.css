@@ -191,6 +191,20 @@ h3 {
     #updateCart{
         display: none;
     }
+    #updateCartFooter, #cartButtonFooter, #cartFooter{
+        display: block;
+    }
+
+    .item-container {    
+        justify-content: center;
+        flex-wrap: wrap;
+        text-decoration: none;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 6%;
+        padding-right: auto; 
+    }
 }
 
 
@@ -238,6 +252,20 @@ h3 {
 
     #updateCart{
         display: none;
+    }
+    #updateCartFooter, #cartButtonFooter, #cartFooter{
+        display: block;
+    }
+
+    .item-container {    
+        justify-content: center;
+        flex-wrap: wrap;
+        text-decoration: none;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 6%;
+        padding-right: auto; 
     }
 }
 
@@ -287,6 +315,20 @@ h3 {
     #updateCart{
         display: none;
     }
+    #updateCartFooter, #cartButtonFooter, #cartFooter{
+        display: block;
+    }
+
+    .item-container {    
+        justify-content: center;
+        flex-wrap: wrap;
+        text-decoration: none;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 6%;
+        padding-right: auto; 
+    }
 }
 
 
@@ -334,5 +376,19 @@ h3 {
 
     #updateCart{
         display: none;
+    }
+    #updateCartFooter, #cartButtonFooter, #cartFooter{
+        display: block;
+    }
+
+    .item-container {    
+        justify-content: center;
+        flex-wrap: wrap;
+        text-decoration: none;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 6%;
+        padding-right: auto; 
     }
 }
