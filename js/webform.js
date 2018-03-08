@@ -94,7 +94,7 @@ function backToProductList() {
 // keep track now many items 
 var cart = [];
 //add item to the list
-function addRemoveItem(name) {
+function addRemoveItem(name, itemId) {
     console.log("you clicked " + name);
     if(cart.indexOf(name) == -1){
         cart.push(name);
@@ -103,7 +103,9 @@ function addRemoveItem(name) {
         var cartUpdate =  document.getElementById("updateCart"); 
         var cartUpdateFooter =  document.getElementById("updateCartFooter");
         cartUpdateFooter.innerHTML = numberItem;
-        cartUpdate.innerHTML = numberItem;            
+        cartUpdate.innerHTML = numberItem;
+        var updateStatus = document.getElementById(itemId);
+        updateStatus.innerHTML = "added to the cart!";            
         console.log ("new item added to the cart");
     }else{
         cart.pop(name);
@@ -113,6 +115,8 @@ function addRemoveItem(name) {
         var cartUpdateFooter =  document.getElementById("updateCartFooter");
         cartUpdateFooter.innerHTML = numberItem;
         cartUpdate.innerHTML = numberItem; 
+        var updateStatus = document.getElementById(itemId);
+        updateStatus.innerHTML = "removed from the cart!";     
         console.log ("item removed from the cart");
     }     
 };

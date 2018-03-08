@@ -200,7 +200,7 @@ h3 {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        padding-left: 36%;
+        padding-left: 14%;
         margin-bottom: 1rem;
     }
 
@@ -210,5 +210,11 @@ h3 {
 
     #productList{
         align-content: center;
+    }
+
+    .item-container div {
+        padding: 0rem;
+        width: 40rem;
+        height: 28rem;       
     }
 }
