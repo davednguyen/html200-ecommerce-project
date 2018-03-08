@@ -154,8 +154,11 @@ h3 {
         padding: 0;
     }
     .container {
-        margin: 0;
-        padding: 0;
+        max-width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
     }
     #companyLogo {
         display: none;
@@ -216,8 +219,11 @@ h3 {
         padding: 0;
     }
     .container {
-        margin: 0;
-        padding: 0;
+        max-width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
     }
     #companyLogo {
         display: none;
@@ -258,14 +264,12 @@ h3 {
     }
 
     .item-container {    
-        justify-content: center;
-        flex-wrap: wrap;
-        text-decoration: none;
-        align-content: center;
+        display: flex;
+        flex-direction: column;
         margin-left: auto;
         margin-right: auto;
-        padding-left: 6%;
-        padding-right: auto; 
+        text-align: center;
+        padding-left: 23%;
     }
 }
 
@@ -278,8 +282,11 @@ h3 {
         padding: 0;
     }
     .container {
-        margin: 0;
-        padding: 0;
+        max-width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
     }
     #companyLogo {
         display: none;
@@ -340,8 +347,11 @@ h3 {
         padding: 0;
     }
     .container {
-        margin: 0;
-        padding: 0;
+        max-width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
     }
     #companyLogo {
         display: none;
@@ -390,5 +400,135 @@ h3 {
         margin-right: auto;
         padding-left: 6%;
         padding-right: auto; 
+    }
+}
+
+/* ******for smaller screen size like Iphone 7 ***** */
+
+@media screen and (max-width:400px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #companyLogo {
+        display: none;
+    }
+    .nav-title {
+        font-size: 1.0rem;
+    }
+    #searchBarButton,
+    #cartButton,
+    {
+        display: none;
+    }
+    .products {
+        margin: 0;
+        padding: 0;
+    }
+    .menu-list {
+        display: flex;
+        margin: 1rem;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    h1 {
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #footerButton {
+        display: block;
+    }
+
+    #updateCart{
+        display: none;
+    }
+    #updateCartFooter, #cartButtonFooter, #cartFooter{
+        display: block;
+    }
+
+    .item-container {    
+        justify-content: center;
+        flex-wrap: wrap;
+        text-decoration: none;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 6%;
+        padding-right: auto; 
+    }
+}
+
+@media screen {
+    .container {
+        max-width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #companyLogo {
+        display: block;
+    }
+    .nav-title {
+        font-size: 1.0rem;
+    }
+    #searchBarButton,
+    #cartButton,
+    {
+        display: none;
+    }
+    .products {
+        margin: 0;
+        padding: 0;
+    }
+    .menu-list {
+        display: flex;
+        margin: 1rem;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    h1 {
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #footerButton {
+        display: block;
+    }
+
+    #updateCart{
+        display: none;
+    }
+    #updateCartFooter, #cartButtonFooter, #cartFooter{
+        display: block;
+    }
+
+    .item-container {    
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-left: 36%;
+        margin-bottom: 1rem;
+    }
+
+    .item-container div:hover {        
+        overflow: visible;
+    }
+
+    #productList{
+        align-content: center;
     }
 }
