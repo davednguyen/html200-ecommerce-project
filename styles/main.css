@@ -142,6 +142,9 @@ h3 {
     color: white;
 }
 
+#updateCartFooter, #cartButtonFooter, #footerButton, #searchBarButtonFooter{
+    display: none;
+}
 
 /* ******for smaller screen size ***** */
 
@@ -183,6 +186,10 @@ h3 {
     }
     #footerButton {
         display: block;
+    }
+
+    #updateCart{
+        display: none;
     }
 }
 
@@ -228,12 +235,16 @@ h3 {
     #footerButton {
         display: block;
     }
+
+    #updateCart{
+        display: none;
+    }
 }
 
 
 /* ******high resolution Iphone 7 ***** */
 
-@media only screen and (min-device-width:375px) and (max-device-width:667px) {
+@media screen and (min-width:375px) and (max-width:667px) {
     body {
         margin: 0;
         padding: 0;
@@ -271,6 +282,10 @@ h3 {
     }
     #footerButton {
         display: block;
+    }
+
+    #updateCart{
+        display: none;
     }
 }
 
@@ -315,5 +330,9 @@ h3 {
     }
     #footerButton {
         display: block;
+    }
+
+    #updateCart{
+        display: none;
     }
 }

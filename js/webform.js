@@ -100,14 +100,18 @@ function addRemoveItem(name) {
         cart.push(name);
         var numberItem = cart.length;
         console.log(numberItem);        
-        var cartUpdate =  document.getElementById("updateCart");   
+        var cartUpdate =  document.getElementById("updateCart"); 
+        var cartUpdateFooter =  document.getElementById("updateCartFooter");
+        cartUpdateFooter.innerHTML = numberItem;
         cartUpdate.innerHTML = numberItem;            
         console.log ("new item added to the cart");
     }else{
         cart.pop(name);
         var numberItem = cart.length;
         console.log(numberItem);
-        var cartUpdate =  document.getElementById("updateCart");   
+        var cartUpdate =  document.getElementById("updateCart"); 
+        var cartUpdateFooter =  document.getElementById("updateCartFooter");
+        cartUpdateFooter.innerHTML = numberItem;
         cartUpdate.innerHTML = numberItem; 
         console.log ("item removed from the cart");
     }     
