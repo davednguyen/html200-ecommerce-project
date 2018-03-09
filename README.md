@@ -41,9 +41,9 @@ Lesson 08:
 
 Lesson 09:
 
-  - Write Javascript that causes the total number of items in the cart to display next to the cart icon when that total changes.
-  - Write Javascript that displays the friendly message on form submit in the page, not in the console.
-  - Update the HTML and CSS as necessary to accomodate these changes.
+  - Write Javascript that causes the total number of items in the cart to display next to the cart icon when that total changes. David- (this have been done) 
+  - Write Javascript that displays the friendly message on form submit in the page, not in the console. David - (this done little bit different where, when you click on item, the message under the item showed that the item added to the card)
+  - Update the HTML and CSS as necessary to accomodate these changes. David - (some HTML and CSS style added to the project to work with on Javascript functions)
   - Update the Testing section of this README with your own information.
 
 *Extra Challenge*: Incorporate unit tests with [Qunit](https://qunitjs.com/).
@@ -59,6 +59,11 @@ Lesson 09:
 ## Requirements
 
   - Site layout looks good on all sizes of devices. At a minimum, elements are proportionally styled and aside element changes location and layout at different screen sizes. This should be tested using a variety of devices and at least one online browser compatiblity testing tool.
+  David - I used this site to test my page from different browsers : https://developer.microsoft.com/en-us/microsoft-edge/tools/screenshots/?url=https%3A%2F%2Fdavednguyen.github.io%2Fhtml200-ecommerce-project%2F%23
+  David - from this cross browser testing, I found IE 8.0 is the worst style looking page. 
+  David - from this cross browser testing, I found EDGE 15, IE 11.00, and Chrome 50.00 browsers have good nice display page.
+  David - from this cross browser testing, I found Iphone 6 screen resolution make the page is unbalance in display (which need lot of fixing for mobile devices style)
+  
   - Nav and product container elements are styled using flexbox.
   - Appropriately sized images are served.
   - User can add and remove items from their cart, which changes cart count number at top of page.
