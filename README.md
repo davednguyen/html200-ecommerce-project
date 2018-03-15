@@ -78,10 +78,11 @@ Each weekly assignment will be graded independently. There will not be a final g
 1. First, I used https://developer.microsoft.com/en-us/microsoft-edge/tools/screenshots/?url=https%3A%2F%2Fdavednguyen.github.io%2Fhtml200-ecommerce-project%2F%3Flkajsdlkfjasf to check common browsers. (saved all testing results as images in TESTRESULTs folder)
 2. Second, I used  Chrome Dev tool to view the page on different devices. (saved all testing results as images in TESTRESULTs/MOBILE-DEVICES)
 3. Third, I load the page on my own my phone (Iphone 7) to see how the page look like. 
+4. I learned with the design I came up for this page, the customers is someone whome looking for scares, and quickly buy them with the faster and most convenience ways. 
 
 --------------------------------------testing results----------------------------------------------
 From this checking, I see that my page looks fine from all browsers except IE 8 and Ipad Air. 
-From this checking, I see that my page looks fine from all devices (but the custom CSS where, when viewing the page on mobile, the footer should all menu as on top menu, and it did't work as expected. Query media didn't work correctly neither no matter what I tried)
+From this checking, I see that my page looks fine from all devices (but the custom CSS where, when viewing the page on mobile, the footer should all menu as on top menu, and it didn't work as expected. Query media didn't work correctly neither no matter what I tried)
 --------------------------------------additional fix-----------------------------------------------
 1. rearrange the "+/-" button to make them align with each others
 2. make the footer bigger to make it looks nicer
