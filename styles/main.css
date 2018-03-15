@@ -136,6 +136,19 @@ h3 {
     display: none;
 }
 
+
+.clickItem, .addItem{
+    display: block;
+}
+
+.itemDescription{
+    height: 18rem;
+}
+
+.footerPart{
+    height: 4rem;
+}
+
 /* for smaller screen size settings and mobile devices  */
  @media only screen and (max-width: 400px) {
     
@@ -209,16 +222,52 @@ h3 {
         width: 40rem;
         height: 28rem;       
     }
+
+    .clickItem, .addItem{
+        display: block;
+    }
+
+    .itemDescription{
+        height: 18rem;
+    }
+
+    .footerPart{
+        height: 4rem;
+    }    
 }
 
 @media (min-width: 768px){
     .container {
         max-width: 100%;
     }
+
+    .clickItem, .addItem{
+        display: block;
+    } 
+    
+    .itemDescription{
+        height: 18rem;
+    }
+
+    .footerPart{
+        height: 4rem;
+    }    
 }
 
 @media (min-width: 576px){
     .container {
         max-width: 100%;
+    }
+
+    .clickItem, .addItem{
+        display: block;
+    }
+
+    .itemDescription{
+        height: 18rem;
+    }
+
+    .footerPart{
+        height: 4rem;
     }
 }
