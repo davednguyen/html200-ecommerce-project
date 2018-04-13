@@ -11,10 +11,23 @@
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/webform.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117530776-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-117530776-1');
+    </script>
+
 </head>
 
 <body>
-    <div class="container mediaStyle">       
+    <div class="container mediaStyle">
         <header>
             <div class="pos-f-t text-right" id="nav-part">
                 <div class="collapse" id="navbarToggleExternalContent">
@@ -43,7 +56,7 @@
                     </form>
                     <button id="searchBarButton" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#searchBar" aria-controls="searchBar" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-search"></i>
-                    </button>                    
+                    </button>
                     <form class="navbar-form navbar-right" id="cart">
                         <div class="form-group">
                             <h3 id="updateCart" class="cardInfo">0</h3>
@@ -59,7 +72,7 @@
                 </nav>
             </div>
         </header>
-        <main class="container mediaStyle" id="productList">        
+        <main class="container mediaStyle" id="productList">
             <aside>
             </aside>
             <section class="products">
@@ -67,65 +80,65 @@
                 <div class="item-container">
                     <div class="item-display">
                         <a class="clickItem" href="#">
-                            <h3 >Reversible Plaid</h3>
+                            <h3>Reversible Plaid</h3>
                             <img src="images/reversible-plaid-320.jpg" alt="reversible plaid scarf">
-                            <p  class="itemDescription">Two classic patterns in one great look: This supersoft and cozy reversible scarf instantly doubles your street-style cred. 100% acrylic.</p>
-                            <p>26.99</p>  
+                            <p class="itemDescription">Two classic patterns in one great look: This supersoft and cozy reversible scarf instantly doubles your street-style cred. 100% acrylic.</p>
+                            <p>26.99</p>
                             <p class="statusBar" id="ReversiblePlaid"></p>
-                            <input class="addItem" type="button" value="+/-" onclick="addRemoveItem('Reversible Plaid', 'ReversiblePlaid')">                          
-                        </a>                        
-                    </div>                    
+                            <input class="addItem" type="button" value="+/-" onclick="addRemoveItem('Reversible Plaid', 'ReversiblePlaid')">
+                        </a>
+                    </div>
                     <div class="item-display">
                         <a class="clickItem" href="#">
                             <h3>Fringed Plaid</h3>
                             <img src="images/fringed-plaid-320.jpeg" alt="fringed plaid scarf">
-                            <p  class="itemDescription">Generously sized, extra soft and featuring a dazzling fringe, this scarf is rendered in a versatile gray, black and white plaid. Expertly beat the cold with style. 100% acrylic.</p>
-                            <p>18.99</p>                          
+                            <p class="itemDescription">Generously sized, extra soft and featuring a dazzling fringe, this scarf is rendered in a versatile gray, black and white plaid. Expertly beat the cold with style. 100% acrylic.</p>
+                            <p>18.99</p>
                             <p class="statusBar" id="FringedPlaid"></p>
                             <input class="addItem" type="button" value="+/-" onclick="addRemoveItem('Fringed Plaid','FringedPlaid')">
-                        </a>                        
+                        </a>
                     </div>
                     <div class="item-display">
                         <a class="clickItem" href="#">
                             <h3>Multi Color</h3>
                             <img src="images/multi-color-320.jpeg" alt="multi color scarf">
-                            <p  class="itemDescription">The Who What Where Oversize Color-Block Square Scarf is big, bold, and designed to twist and wrap any way you wish. All the colors of the season are harmonized in this oversize accent, so you can adjust to contrast or match
+                            <p class="itemDescription">The Who What Where Oversize Color-Block Square Scarf is big, bold, and designed to twist and wrap any way you wish. All the colors of the season are harmonized in this oversize accent, so you can adjust to contrast or match
                                 your outfit; soft and lush, it’s your stylish standoff against cold AC and unexpected fall breezes. 100% acrylic.</p>
                             <p>22.99</p>
                             <p class="statusBar" id="MultiColor"></p>
-                            <input class="addItem" type="button" value="+/-" onclick="addRemoveItem('Multi Color','MultiColor')">                           
-                        </a>                        
+                            <input class="addItem" type="button" value="+/-" onclick="addRemoveItem('Multi Color','MultiColor')">
+                        </a>
                     </div>
                     <div class="item-display">
                         <a class="clickItem" href="#">
                             <h3>Northern Lights</h3>
                             <img src="images/northern-lights-320.jpg" alt="northern lights scarf">
-                            <p  class="itemDescription">Handmade by women in Agra, sales provide medical and educational support in this remote area of India. Crinkly 100% cotton.</p>
+                            <p class="itemDescription">Handmade by women in Agra, sales provide medical and educational support in this remote area of India. Crinkly 100% cotton.</p>
                             <p>29.99</p>
                             <p class="statusBar" id="NorthernLights"></p>
-                            <input class="addItem" type="button" value="+/-" onclick="addRemoveItem('Northern Lights', 'NorthernLights')">                            
-                        </a>                        
+                            <input class="addItem" type="button" value="+/-" onclick="addRemoveItem('Northern Lights', 'NorthernLights')">
+                        </a>
                     </div>
                     <div class="item-display">
                         <a class="clickItem" href="#">
                             <h3>Ombre Infinity</h3>
                             <img src="images/ombre-infinity-320.jpg" alt="ombre infinity scarf">
-                            <p  class="itemDescription">A dip-dye effect adds color and dimension to a cozy infinity scarf featuring a soft, chunky knit. 100% acrylic.</p>
+                            <p class="itemDescription">A dip-dye effect adds color and dimension to a cozy infinity scarf featuring a soft, chunky knit. 100% acrylic.</p>
                             <p>11.99</p>
                             <p class="statusBar" id="OmbreInfinity"></p>
                             <input class="addItem" type="button" value="+/-" onclick="addRemoveItem('Ombre Infinity','OmbreInfinity')">
-                        </a>                       
+                        </a>
                     </div>
                     <div class="item-display">
                         <a class="clickItem" href="#">
                             <h3>Ashby Twill</h3>
                             <img src="images/twill-320.jpg" alt="ashby twill scarf">
-                            <p  class="itemDescription">Faribault brings you the Ashby Twill Scarf in Natural. Woven with a 'broken' twill technique, the Ashby Twill Scarf has a slight zigzag texture. Made in USA, this timeless scarf is crafted with luxurious merino wool and finished
+                            <p class="itemDescription">Faribault brings you the Ashby Twill Scarf in Natural. Woven with a 'broken' twill technique, the Ashby Twill Scarf has a slight zigzag texture. Made in USA, this timeless scarf is crafted with luxurious merino wool and finished
                                 with heather gray fringe. 100% Merino wool.</p>
                             <p>70.99</p>
                             <p class="statusBar" id="AshbyTwill"></p>
                             <input class="addItem" type="button" value="+/-" onclick="addRemoveItem('Ashby Twill','AshbyTwill')">
-                        </a>                       
+                        </a>
                     </div>
                     <div class="item-display">
                         <a class="clickItem" href="#">
@@ -135,36 +148,36 @@
                             <p>49.99</p>
                             <p class="statusBar" id="WoolCableKnit"></p>
                             <input class="addItem" type="button" value="+/-" onclick="addRemoveItem('Wool Cable Knit','WoolCableKnit')">
-                        </a>                        
+                        </a>
                     </div>
                     <div class="item-display">
                         <a class="clickItem" href="#">
                             <h3>Etro Paisley-Print Silk</h3>
                             <img src="images/etro-320.png" alt="etro paisley print silk scarf">
-                            <p  class="itemDescription">Luxurious silk scarf with subtle paisley pattern. 100% silk.</p>
+                            <p class="itemDescription">Luxurious silk scarf with subtle paisley pattern. 100% silk.</p>
                             <p>26.99</p>
                             <p class="statusBar" id="EtroPaisley-PrintSilk"></p>
                             <input class="addItem" type="button" value="+/-" onclick="addRemoveItem('Etro Paisley-Print Silk','EtroPaisley-PrintSilk')">
-                        </a>                       
+                        </a>
                     </div>
                 </div>
             </section>
-        </main>        
+        </main>
         <footer>
             <div class="pos-f-t text-right" id="nav-part-footer">
                 <div class="collapse" id="navbarToggleExternalContentFooter">
                     <div class="bg-dark p-4">
                         <nav>
                             <ul>
-                                <li><a  href="#">Hats</a></li>
-                                <li><a  href="#">Gloves</a></li>
-                                <li><a  href="#">Scarves</a></li>
-                                <li><a  href="#" onclick="fillOutForm()">Join Our email list</a></li>
+                                <li><a href="#">Hats</a></li>
+                                <li><a href="#">Gloves</a></li>
+                                <li><a href="#">Scarves</a></li>
+                                <li><a href="#" onclick="fillOutForm()">Join Our email list</a></li>
                             </ul>
                         </nav>
                     </div>
                 </div>
-                <nav class="navbar navbar-dark bg-dark navbar-right footerPart">                   
+                <nav class="navbar navbar-dark bg-dark navbar-right footerPart">
                     <form class="navbar-form navbar-right collapse" id="searchBarFooter">
                         <div class="form-group">
                             <input type="text" class="form-control" id="searchBoxFooter" placeholder="Search">
@@ -172,7 +185,7 @@
                     </form>
                     <button id="searchBarButtonFooter" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#searchBarFooter" aria-controls="searchBar" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-search"></i>
-                    </button>                   
+                    </button>
                     <button id="cartButtonFooter" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#cartFooter" aria-controls="searchBarFooter" aria-expanded="false" aria-label="Toggle navigation">
                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                     </button>
